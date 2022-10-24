@@ -13,6 +13,11 @@ namespace Kogane
                     .FirstOrDefault()
                 ;
 
+            return LoadAssetFromGUID<T>( guid );
+        }
+
+        public static T LoadAssetFromGUID<T>( string guid ) where T : Object
+        {
             if ( string.IsNullOrEmpty( guid ) ) return null;
 
             var assetPath = AssetDatabase.GUIDToAssetPath( guid );
