@@ -1,6 +1,6 @@
 {
-    "name": "com.baba-s.kogane-kogane-asset-database",
-    "displayName": "Kogane Kogane Asset Database",
+    "name": "com.baba-s.kogane-asset-database",
+    "displayName": "Kogane Asset Database",
     "version": "1.0.0",
     "unity": "2022.1",
     "author": "baba-s",

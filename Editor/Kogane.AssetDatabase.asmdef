@@ -1,5 +1,5 @@
 ﻿{
-    "name": "Kogane.KoganeAssetDatabase",
+    "name": "Kogane.AssetDatabase",
     "rootNamespace": "",
     "references": [],
     "includePlatforms": [
